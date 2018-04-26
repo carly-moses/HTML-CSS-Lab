@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="stylesheet.css" rel="stylesheet" type="text/css" media="all">
+    <link href="mobile.css" rel="stylesheet" type="text/css" media="all">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>HTML/CSS Lab</title>
 </head>
 <body>
     <div class="nav">
         <h1> chirpus inc.</h1>
-        <ul>
-            <li class="home"><a href="#">Home</a></li>
-            <li class="work"><a href="#">Work</a></li>
-            <li class="aboutus"><a href="#">About Us</a></li>
-            <li class="contact"><a href="#">Contact</a></li>
-            <li><button type="button">Hire Us</li>
-        </ul>
-        <div class="clearfix"></div>
+        
+        <div class="list">
+            <ul>
+                <li class="home"><a href="#">Home</a></li>
+                <li class="work"><a href="#">Work</a></li>
+                <li class="aboutus"><a href="#">About Us</a></li>
+                <li class="contact"><a href="#">Contact</a></li>
+                <li><button type="button">Hire Us</li>
+            </ul>
+        </div>
+        <!--needed for floats<div class="clearfix"></div>-->
     </div>
 
     <div class="intro-and-circles">
@@ -41,7 +44,7 @@
     </div>
 
     <footer>
-        <button type="button">Scroll Down</button>
+        <button id="scrolldown" type="button">Scroll Down</button>
     </footer>
 
     </body>
